@@ -6,19 +6,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GameMarket</title>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/styleErrorSearch.css">
 </head>
 <body>
 <div id="logoLogin">
 	<div>
 		<header id="headerL">
-			<img src="../img/logo1.jpeg" id="logo">
+			<img src="img/logo1.jpeg" id="logo">
 			<span id="textLogo">Migliori giochi a prezzi stracciati!</span>
 			<span id="ricerca">
-				<form action="search.php">
-				<input type="search" id="inputSearch">
+				<form action="../Search" method="get">
+				<input type="search" id="inputSearch" name="ricerca">
 				<input type="submit" value="cerca" id="BSearch">
-			</form> 
+				</form> 
 			</span>
 			<div id="login">
 			<span id="LoginButton"><input type="button" value="Login" class="LR"></span>
@@ -66,7 +67,9 @@
 </aside>
 
 <section id="Principale">
-		<header class="firstplane"><span id="offerte">Le nostre offerte di oggi</span>
+		<header class="firstplane"><span id="offerte">
+		<% response.getHeader("errorSearchMessage"); %>
+	</span>
 		</header>
 		<article><a href="#" id="infoDetail1">
 			<span class="title" id="title1"> Titolo gioco</span>

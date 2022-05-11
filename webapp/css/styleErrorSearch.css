@@ -1,0 +1,704 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 999px) {
+	body {
+		background-color: #000c4b;
+		color: #ffffff;
+		text-align: center;
+		width: 500px;
+		height: 2200px;
+		display: block;
+		margin-left: 50px;
+	}
+	.foto {
+		width: 250px;
+		margin-left: 20px;
+		margin-right: auto;
+	}
+	.miniFoto {
+		width: 140px;
+	}
+	.fotoFooterPrefCons {
+		width: 100px;
+		height: 150px;
+	}
+	a {
+		text-decoration: none;
+	}
+	div#login a , nav#navnav a{
+		text-decoration: none;
+		color: #ff0000;
+		font-size: 1.5em;
+	}
+	#headerL {
+		width: 500px;
+		margin-left: 10%;
+		margin-right: auto;
+		position: relative;
+		height: 200px;
+	}
+	#textLogo {
+		position: absolute;
+		top: 200px;
+		left: 20px;
+		font-size: 2em;
+		font-family: Cursive;
+		color: #ffff66;
+	}
+	#logo {
+		position: absolute;
+		left: -50px;
+		top: -50px;
+		height: 300px;
+		width: 500px;
+	}
+	#ricerca {
+		position: absolute;
+		top: 250px;
+		left: 20px;
+		width: 400px;
+	}
+	#inputSearch {
+		width: 300px;
+		font-size: 1.5em;
+	}
+	#BSearch {
+		position: absolute;
+		width: 100px;
+		height: 34px;
+		font-size: 1.2em;
+		background-color: #000c4b;
+		color: #ffff66;
+		border: 1px solid #ffff66;
+		border-radius: 30px;
+		margin-left: 5px;
+	}
+	#login {
+		position: absolute;
+		top: 300px;
+		left: 20px;
+	}
+	span.divBlock {
+		position: relative;
+	}
+	
+	#pf1, #pf2, #pf3 {
+		position: absolute;
+	}
+	#pf1 {
+		left: 60px;
+	}
+	#pf2 {
+		left: 225px;
+	}
+	#pf3 {
+		left: 400px;
+	}
+	
+	#a1,#a2,#a3,#a4,#a5,#a6{position: absolute;}
+	
+	#a1{top: 270px;left: 65px;}
+	#a2{top: 310px;left: 65px;}
+	#a3{top: 270px;left: 230px;}
+	#a4{top: 310px;left: 230px;}
+	#a5{top: 270px;left: 400px;}
+	#a6{top: 310px;left: 400px;}
+	
+	#f1, #f2, #f3 {
+		position: absolute;
+	}
+	#f1 {
+		left: 60px;
+	}
+	#f2 {
+		left: 225px;
+	}
+	#f3 {
+		left: 400px;
+	}
+	
+	#b1,#b2,#b3,#b4,#b5,#b6{position: absolute;}
+	
+	#b1{top: 270px;left: 65px;}
+	#b2{top: 310px;left: 65px;}
+	#b3{top: 270px;left: 230px;}
+	#b4{top: 310px;left: 230px;}
+	#b5{top: 270px;left: 400px;}
+	#b6{top: 310px;left: 400px;}
+	
+	.LR { /* LR la parte di login/ registrazione/ carrello */
+		padding: 10px;
+		width: 150px;
+		font-size: 20px;
+	}
+	/* .D per dopo, .C carrello pref, .LD dislike, .L like */
+	.D, .C, .LD, .L, .LR {
+		background-color: #000c4b;
+		border: 1px solid white;
+		color: #ffff66;
+		border-radius: 30px;
+		border: 1px solid #ffff66;
+	}
+	.D, .C, .LD, .L {
+		padding: 10px;
+		width: 90px;
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	.L:hover {
+		background-color: green;
+		color: white;
+	}
+	.LD:hover {
+		background-color: red;
+		color: white;
+	}
+	.C:hover {
+		background-color: #947141;
+		color: white;
+	}
+	.D:hover {
+		background-color: #800040;
+		color: white;
+	}
+	div#navmenuaside {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#AsidePreferiti {
+		position: absolute;
+		width: 550px;
+		height: 350px; 
+		top: 1120px;
+		background-color: #001998;
+		border-radius: 50px;
+		left: 10px;
+	}
+	#AsideConsigliati {
+		position: absolute;
+		width: 550px;
+		height: 350px; 
+		top: 1500px;
+		background-color: #001998;
+		border-radius: 50px;
+		left: 10px;
+	}
+	#navnav {
+		position: absolute;
+		left: 20px;
+		top: 135px;
+		min-width: 400px;
+	}
+	ul.nav li {
+		display: inline;
+		float: left;
+	}
+	ul.nav li a {
+		display: block;
+		text-align: center;
+		padding: 10px;
+		margin: 1px;
+		max-width: 200px;
+	}
+	ul#undernav {
+		display: none;
+	}
+	#Principale {
+		position: absolute;
+		width: 500px;
+		left: 10px;
+		top: 205px;
+	}
+	section article{
+		font-family: arial;
+		
+		color: #77e052;
+		
+		position: relative;
+		display: block;
+		width: 500px;
+		height:270px;
+	}
+	article a{
+	color: #77e052;}
+	.title{
+		font-weight: 700;
+		font-family: Cursive;
+		font-size: 30px;
+		position: relative;
+		top: -115px;
+		left: 150px;
+	}
+	.foto{
+		position: relative;
+		top: 40px;
+		left: -140px;	
+	}
+	
+	.infoGioco{
+		position: relative;
+		top: -100px;
+		left: 340px;
+		text-align: left;
+		width: 200px;
+	}
+	.descriptionGame{
+		position: relative;
+		top:	-50px;
+		left: 50px;
+		font-size: 0.75em;
+		text-align: left;
+		overflow: hidden;
+	}
+	
+	#offerte, article, footer, aside {
+		padding-top: 10px;
+		font-size: 1.5em;
+	}
+	#foot{
+		border: 3px dotted #ffff66;
+		border-radius: 30px;
+		position: absolute;
+		top: 2100px;
+		padding: 20px;
+		font-size: 20px;
+		max-width: 500px;
+	}
+}
+
+@media screen and (min-width:1000px) and (max-width: 1299px) {
+	body {
+		background-color: #000c4b;
+		color: #ffffff;
+		text-align: center;
+		width: 1000px;
+		height: 110%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.foto {
+		width: 350px;
+	}
+	.fotoFooterPrefCons {
+		width: 200px;
+		height: 300px;
+	}
+	a {
+		text-decoration: none;
+		color: #cccccc;
+		font-size: 1.5em;
+	}
+	#headerL {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		height: 200px;
+	}
+	#textLogo {
+		position: absolute;
+		top: 25px;
+		left: 370px;
+		font-size: 2em;
+		font-family: Cursive;
+		color: #ffff66;
+	}
+	#logo {
+		position: absolute;
+		left: -100px;
+		top: -25px;
+		height: 250px;
+		width: 400px;
+	}
+	#ricerca {
+		position: absolute;
+		top: 80px;
+		left: 370px;
+	}
+	#inputSearch {
+		width: 300px;
+		font-size: 1.5em;
+	}
+	#BSearch {
+		position: absolute;
+		width: 100px;
+		height: 34px;
+		font-size: 1.2em;
+		color: #ffff66;
+		border-radius: 30px;
+		border: 1px solid #ffff66;
+		background-color: #000c4b;
+		margin-left: 5px;	
+	}
+	#login {
+		position: absolute;
+		top: 130px;
+		left: 330px;
+		line-height: 3;
+		width: 500px;
+	}
+	span.divBlock {
+		position: relative;
+	}
+	#f1, #f2, #f3 {
+		position: absolute;
+	}
+	#f1 {
+		left: 50px;
+	}
+	#f2 {
+		left: 260px;
+	}
+	#f3 {
+		left: 470px;
+	}
+	
+	#b1,#b2,#b3,#b4,#b5,#b6{position: absolute;}
+	
+	#b1{top: 420px;left: 50px}
+	#b2{top: 420px;left: 150px}
+	#b3{top: 420px;left: 260px}
+	#b4{top: 420px;left: 360px}
+	#b5{top: 420px;left: 480px}
+	#b6{top: 420px;left: 580px}
+	
+	.LR { /* LR la parte di login/ registrazione/ carrello */
+		padding: 10px;
+		width: 150px;
+		font-size: 20px;
+	}
+	/* .D per dopo, .C carrello pref, .LD dislike, .L like */
+	.D, .C, .LD, .L, .LR {
+		background-color: #000c4b;
+		border: 1px solid white;
+		color: #ffff66;
+		border: 1px solid #ffff66;
+		border-radius: 30px;
+	}
+	.D, .C, .LD, .L {
+		padding: 10px;
+		width: 90px;
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	.L:hover {
+		background-color: green;
+		color: white;
+	}
+	.LD:hover {
+		background-color: red;
+		color: white;
+	}
+	.C:hover {
+		background-color: #947141;
+		color: white;
+	}
+	.D:hover {
+		background-color: #800040;
+		color: white;
+	}
+	div#navmenuaside {
+		position: relative;
+	}
+	#AsidePreferiti {
+		position: absolute;
+		width: 220px;
+		left: 10px;
+		top: 60px;
+		background-color: #001998;
+		border-radius: 50px;
+	}
+	#AsideConsigliati {
+		position: absolute;
+		width: 730px;
+		height: 500px; left : 250px;
+		top: 1220px;
+		background-color: #001998;
+		border-radius: 50px;
+		left: 250px;
+	}
+	#navnav {
+		position: absolute;
+		left: 485px;
+		top: -20px;
+	}
+	ul.nav li {
+		display: inline;
+		float: left;
+	}
+	ul.nav li a {
+		display: block;
+		text-align: center;
+		padding: 10px;
+		margin: 1px;
+		max-width: 200px;
+		color: #ff0000;
+	}
+	ul#undernav {
+		display: none;
+	}
+	
+	#offerte{
+		font-size: 1.5em;
+	}
+	#Principale {
+		position: absolute;
+		width: 800px;
+		left: 200px;
+		top: 75px;
+	}
+	article a{
+	color: #77e052;
+	}
+	.title{
+		font-size: 30px;
+		position: relative;
+		top: -165px;
+		left: 150px;
+	}
+	.foto{
+		position: relative;
+		top: 50px;
+		left: -220px;	
+	}
+	
+	.infoGioco{
+		position: relative;
+		top: -140px;
+		left: 440px;
+		text-align: left;
+		font-size: 25px;
+		width:300px;
+	}
+	.descriptionGame{
+		width:600px;
+		height: 4em;
+		position: relative;
+		top: -10px;
+		left: 60px;
+		font-size: 20px;
+		text-align: left;
+		overflow: hidden;
+	}
+	 footer, aside {
+		font-size: 2em;
+	}
+	#foot{
+		border: 3px dotted #ffff66;
+		border-radius: 30px;
+		position: absolute;
+		top: 2000px;
+		padding: 20px;
+		margin-left: 230px;
+		margin-right: auto;
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width:1300px) {
+	body {
+		background-color: #000c4b;
+		color: #ffffff;
+		text-align: center;
+		width: 1300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.foto {
+		width: 400px;
+		height: 600px;
+	}
+	.miniFoto {
+		width: 250px;
+	}
+	.fotoFooterPrefCons {
+		width: 200px;
+		height: 300px;
+	}
+	a {
+		text-decoration: none;
+		color: #cccccc;
+		font-size: 1.5em;
+	}
+	#headerL {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		height: 200px;
+	}
+	#textLogo {
+		position: absolute;
+		top: 25px;
+		left: 370px;
+		font-size: 2em;
+		font-family: Cursive;
+		color: #ffff66;
+	}
+	#logo {
+		position: absolute;
+		left: -100px;
+		top: -25px;
+		height: 250px;
+		width: 400px;
+	}
+	#ricerca {
+		position: absolute;
+		top: 80px;
+		left: 370px;
+	}
+	#inputSearch {
+		width: 500px;
+		font-size: 1.5em;
+	}
+	#BSearch {
+		position: absolute;
+		width: 100px;
+		height: 34px;
+		font-size: 1.2em;
+		color: #ffff66;
+		background-color: #000c4b;
+		border: 2px solid #ffff66;
+		border-radius: 30px;
+		margin-left: 5px;
+	}
+	#login {
+		position: absolute;
+		top: 130px;
+		left: 370px;
+		line-height: 3;
+	}
+	.LR { /* LR la parte di login/ registrazione/ carrello */
+		padding: 10px;
+		width: 150px;
+		font-size: 20px;
+	}
+	/* .D per dopo, .C carrello pref, .LD dislike, .L like */
+	.D, .C, .LD, .L, .LR {
+		background-color: #000c4b;
+		border: 1px solid white;
+		color: #ffff66;
+		border: 1px solid #ffff66;
+		border-radius: 30px;
+	}
+	.D, .C, .LD, .L {
+		padding: 10px;
+		width: 90px;
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	.L:hover {
+		background-color: green;
+		color: white;
+	}
+	.LD:hover {
+		background-color: red;
+		color: white;
+	}
+	.C:hover {
+		background-color: #947141;
+		color: white;
+	}
+	.D:hover {
+		background-color: #800040;
+		color: white;
+	}
+	div#navmenuaside {
+		position: relative;
+	}
+	#AsidePreferiti {
+		position: absolute;
+		width: 220px;
+		left: 10px;
+		top: 60px;
+		background-color: #001998;
+		border-radius: 50px;
+	}
+	#AsideConsigliati {
+		position: absolute;
+		width: 220px;
+		left: 1070px;
+		top: 60px;
+		background-color: #001998;
+		border-radius: 50px;
+	}
+	#navnav {
+		position: absolute;
+		left: 485px;
+	}
+	ul.nav li {
+		display: inline;
+		float: left;
+	}
+	ul.nav li a {
+		display: block;
+		text-align: center;
+		padding: 10px;
+		margin: 1px;
+		max-width: 200px;
+		color: #ff0000;
+	}
+	ul#undernav {
+		display: none;
+	}
+	#Principale {
+		position: absolute;
+		width: 800px;
+		left: 250px;
+		top: 75px;
+	}
+	article a{
+	color: #77e052;
+	}
+	.title{
+		font-size: 30px;
+		position: relative;
+		top: -570px;
+		left: 25%;
+	}
+	.foto{
+		position: relative;
+		top: 60px;
+		left: -260px;
+	}
+	
+	.infoGioco{
+		position: relative;
+		top: -550px;
+		left: 440px;
+		text-align: left;
+		font-size: 30px;
+		width:350px;
+	}
+	.descriptionGame{
+		width:700px;
+		height: 4em;
+		position: relative;
+		top: -60px;
+		left: 30px;
+		font-size: 20px;
+		text-align: left;
+		overflow: hidden;
+	}
+	section#Principale, article, footer, aside {
+		clear: left;
+		padding-top: 10px;
+		font-size: 2em;
+	}
+	#foot{
+		border: 3px dotted #ffff66;
+		border-radius: 30px;
+		position: absolute;
+		top: 90%;
+		padding: 20px;
+		margin-left: 20%;
+		margin-right: auto;
+		
+		font-size: 20px;
+	}
+	#AsideConsigliati ,#AsidePreferiti ,article{
+		display: none;
+}
